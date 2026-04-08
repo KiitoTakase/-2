@@ -1,0 +1,45 @@
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>お天気トランプ</title>
+    <title>13種天気カード</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <div id="interactionZone" class="interaction-zone" role="button" tabindex="0" aria-label="山札を操作する">
+      <div id="interactionZone" class="interaction-zone" role="button" tabindex="0" aria-label="天気カードの山札">
+        <div class="tableau" aria-live="polite">
+          <div id="revealedCardSlot" class="revealed-card-slot is-empty"></div>
+
+          <div class="deck-stage">
+            <div id="deck" class="deck" aria-hidden="true">
+            <div class="deck" aria-hidden="true">
+              <span class="deck-layer layer-4"></span>
+              <span class="deck-layer layer-3"></span>
+              <span class="deck-layer layer-2"></span>
+              <span class="deck-layer layer-1"></span>
+              <div class="card-back">
+                <span class="cloud cloud-a"></span>
+                <span class="cloud cloud-b"></span>
+                <span class="cloud cloud-c"></span>
+                <span class="back-frame back-frame-outer"></span>
+                <span class="back-frame back-frame-inner"></span>
+                <span class="back-orbit orbit-a"></span>
+                <span class="back-orbit orbit-b"></span>
+                <span class="back-cloud cloud-a"></span>
+                <span class="back-cloud cloud-b"></span>
+                <span class="back-cloud cloud-c"></span>
+              </div>
+            </div>
+
+            <div id="shuffleBurst" class="shuffle-burst" aria-hidden="true">
+            <div class="shuffle-burst" aria-hidden="true">
+              <span class="burst-card burst-1"></span>
+              <span class="burst-card burst-2"></span>
+              <span class="burst-card burst-3"></span>
+              <span class="burst-card burst-4"></span>
+              <span class="burst-card burst-5"></span>
+            </div>
+          </div>
+        </div>
