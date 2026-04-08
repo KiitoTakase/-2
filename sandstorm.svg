@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d49a4a"/>
+      <stop offset="100%" stop-color="#f3d7a2"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="76%" cy="22%" r="24%">
+      <stop offset="0%" stop-color="#fff8e8"/>
+      <stop offset="36%" stop-color="#ffe0a2" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffe0a2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="700" fill="url(#sky)"/>
+  <ellipse cx="250" cy="670" rx="270" ry="118" fill="#e5bd76"/>
+  <circle cx="380" cy="150" r="58" fill="#fff7e4"/>
+  <circle cx="380" cy="150" r="120" fill="url(#sunGlow)"/>
+  <g fill="#f1d39d" opacity="0.82">
+    <g transform="translate(64 262)">
+      <ellipse cx="112" cy="70" rx="118" ry="60"/>
+      <circle cx="50" cy="64" r="52"/>
+      <circle cx="134" cy="34" r="74"/>
+      <circle cx="214" cy="64" r="58"/>
+    </g>
+    <g transform="translate(194 386)">
+      <ellipse cx="94" cy="58" rx="104" ry="50"/>
+      <circle cx="44" cy="54" r="42"/>
+      <circle cx="112" cy="24" r="58"/>
+      <circle cx="186" cy="54" r="44"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#d79f4d" stroke-width="14" stroke-linecap="round" opacity="0.55">
+    <path d="M54 450 C136 420, 220 420, 314 450 C372 468, 412 468, 446 454"/>
+    <path d="M34 506 C122 476, 222 478, 330 506 C388 522, 426 522, 460 510"/>
+    <path d="M62 562 C156 536, 258 538, 364 562 C408 572, 434 572, 458 564"/>
+  </g>
+</svg>
