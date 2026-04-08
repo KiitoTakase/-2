@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#67b8ff"/>
+      <stop offset="100%" stop-color="#d9efff"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="76%" cy="22%" r="24%">
+      <stop offset="0%" stop-color="#fffef4"/>
+      <stop offset="35%" stop-color="#fff1ab" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff1ab" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="700" fill="url(#sky)"/>
+  <ellipse cx="250" cy="670" rx="260" ry="110" fill="#eef8ff"/>
+  <circle cx="380" cy="150" r="58" fill="#fffdf1"/>
+  <circle cx="380" cy="150" r="120" fill="url(#sunGlow)"/>
+  <g fill="#ffffff">
+    <g transform="translate(74 300)">
+      <ellipse cx="92" cy="58" rx="98" ry="50"/>
+      <circle cx="44" cy="50" r="42"/>
+      <circle cx="104" cy="26" r="58"/>
+      <circle cx="170" cy="54" r="46"/>
+    </g>
+    <g transform="translate(210 410)">
+      <ellipse cx="86" cy="54" rx="92" ry="46"/>
+      <circle cx="42" cy="54" r="40"/>
+      <circle cx="108" cy="26" r="56"/>
+      <circle cx="164" cy="52" r="40"/>
+    </g>
+  </g>
+</svg>
