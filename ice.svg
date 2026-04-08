@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7f98bf"/>
+      <stop offset="100%" stop-color="#eef5fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="700" fill="url(#sky)"/>
+  <ellipse cx="250" cy="670" rx="270" ry="118" fill="#f8fbff"/>
+  <circle cx="380" cy="150" r="54" fill="#ffffff" opacity="0.82"/>
+  <g fill="#d7e0ea">
+    <g transform="translate(70 252)">
+      <ellipse cx="108" cy="70" rx="116" ry="60"/>
+      <circle cx="46" cy="66" r="50"/>
+      <circle cx="128" cy="34" r="72"/>
+      <circle cx="210" cy="66" r="56"/>
+    </g>
+    <g transform="translate(198 370)">
+      <ellipse cx="92" cy="60" rx="102" ry="50"/>
+      <circle cx="42" cy="56" r="40"/>
+      <circle cx="112" cy="26" r="58"/>
+      <circle cx="184" cy="56" r="46"/>
+    </g>
+  </g>
+  <g fill="#d8f2ff" opacity="0.82">
+    <polygon points="132,462 154,498 134,536 94,534 74,496 96,460"/>
+    <polygon points="250,446 276,488 250,532 204,530 180,488 204,448"/>
+    <polygon points="362,468 388,506 366,544 322,542 300,504 324,468"/>
+  </g>
+</svg>
