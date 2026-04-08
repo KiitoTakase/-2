@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#8eb4db"/>
+      <stop offset="100%" stop-color="#edf5fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="700" fill="url(#sky)"/>
+  <ellipse cx="250" cy="670" rx="270" ry="118" fill="#f4f9fe"/>
+  <circle cx="380" cy="150" r="56" fill="#fffdf7" opacity="0.82"/>
+  <g fill="#e5eef7">
+    <g transform="translate(74 280)">
+      <ellipse cx="92" cy="58" rx="98" ry="50"/>
+      <circle cx="44" cy="50" r="42"/>
+      <circle cx="104" cy="26" r="58"/>
+      <circle cx="170" cy="54" r="46"/>
+    </g>
+    <g transform="translate(220 404)">
+      <ellipse cx="82" cy="50" rx="88" ry="44"/>
+      <circle cx="38" cy="48" r="36"/>
+      <circle cx="100" cy="22" r="50"/>
+      <circle cx="154" cy="48" r="40"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.88">
+    <path d="M60 418 C140 390, 210 388, 312 418 C362 432, 404 432, 440 410"/>
+    <path d="M84 484 C156 458, 238 458, 332 484 C380 498, 416 494, 444 478"/>
+    <path d="M118 548 C186 524, 270 526, 360 548 C396 556, 422 556, 446 544"/>
+  </g>
+</svg>
